@@ -1,0 +1,1328 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  animation: left 2s ease;
+  padding: none;
+}
+p {
+  animation: left 4s ease;
+  cursor: pointer;
+}
+button {
+  animation: right 2s ease;
+}
+img {
+  animation: 2s ease-out;
+}
+nav {
+  background-color: rgba(245, 245, 245, 0.963);
+  padding: 1rem 2rem;
+  display: flex;
+  position: fixed;
+  width: 1283px;
+}
+
+.nav-item {
+  position: relative;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.nav-item:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgb(0, 123, 255);
+}
+
+.nav-link {
+  color: rgb(0, 123, 255);
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(242, 240, 240, 0.538);
+  padding: 1rem;
+  width: 700px;
+  border-radius: 6px;
+  z-index: 1000;
+}
+
+.dropdown a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 0.3rem 0;
+  font-family: sans-serif;
+}
+
+.dropdown a:hover {
+  text-decoration: underline;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+#emz {
+  font-size: 400px;
+  position: absolute;
+  top: -390px;
+  color: rgba(128, 128, 128, 0.177);
+  background-color: rgba(30, 30, 140, 0.03);
+  /*left: 240px;*/
+  font-weight: bolder;
+  text-decoration: dotted;
+  width: 1350px;
+  height: 660px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+/*body{
+    background-image: url("paper.gif");
+}*/
+.typing {
+  color: #138695;
+  position: absolute;
+  top: 430px;
+  left: 470px;
+  font-size: xx-large;
+  font-family: cursive;
+  font-weight: bolder;
+  cursor: pointer;
+  border-right: 2px solid #00ffcc;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: right 2s ease;
+}
+
+@keyframes right {
+  0% {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.shop {
+  background-color: rgb(63, 107, 227);
+  width: 120px;
+  height: 50px;
+  border: 10px solid;
+  border-color: rgb(63, 107, 227);
+  border-radius: 25px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  cursor: pointer;
+  top: 500px;
+  left: 600px;
+  font-size: larger;
+  text-align: center;
+}
+.shop:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+#navbar {
+  width: 700px;
+  display: flex;
+  gap: 100px;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  float: right;
+  position: absolute;
+  left: 550px;
+  animation: left 2s ease;
+}
+/*navbar animation*/
+@keyframes left {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.home {
+  text-decoration: none;
+  color: rgb(63, 107, 227);
+  font-weight: bolder;
+}
+.about {
+  text-decoration: none;
+  color: black;
+}
+.about:hover {
+  color: rgb(63, 107, 227);
+}
+.services {
+  text-decoration: none;
+  color: black;
+}
+.services:hover {
+  color: rgb(63, 107, 227);
+}
+.contact {
+  text-decoration: none;
+  color: black;
+}
+.contact:hover {
+  color: rgb(63, 107, 227);
+}
+#pc {
+  position: relative;
+  top: 680px;
+  width: 1265px;
+  cursor: pointer;
+  animation: left 2s ease;
+  left: 40px;
+}
+#pc:hover {
+  animation: left 2s ease;
+}
+.pcpro {
+  position: absolute;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  left: 400px;
+  top: 650px;
+  cursor: pointer;
+  animation: left 4s ease;
+}
+.gexp {
+  position: absolute;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  left: 470px;
+  top: 780px;
+  cursor: pointer;
+  animation: left 4s ease;
+}
+.btnlearn {
+  position: absolute;
+  border-radius: 30px;
+  width: 140px;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(63, 107, 227);
+  border-color: rgb(63, 107, 227);
+  left: 480px;
+  top: 850px;
+  cursor: pointer;
+}
+.btnlearn:hover {
+  background-color: rgb(88, 126, 230);
+  border-color: rgb(88, 126, 230);
+}
+.btnlearn:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+.btnbuy {
+  position: absolute;
+  border-radius: 30px;
+  width: 90px;
+  height: 60px;
+  font-size: 20px;
+  color: rgb(63, 107, 227);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  border-color: rgb(63, 107, 227);
+  left: 635px;
+  top: 850px;
+  cursor: pointer;
+}
+.btnbuy:hover {
+  color: white;
+  background-color: rgb(63, 107, 227);
+}
+.btnbuy:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+#pads {
+  position: absolute;
+  top: 1410px;
+  width: 622px;
+  height: 596px;
+  cursor: pointer;
+  left: 43px;
+}
+.ps5 {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  left: 200px;
+  top: 1400px;
+  cursor: pointer;
+}
+.psexp {
+  position: absolute;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  left: 215px;
+  top: 1485px;
+  cursor: pointer;
+}
+.btnlearn2 {
+  position: absolute;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(63, 107, 227);
+  border-color: rgb(63, 107, 227);
+  left: 230px;
+  top: 1535px;
+  cursor: pointer;
+}
+.btnlearn2:hover {
+  background-color: rgb(88, 126, 230);
+  border-color: rgb(88, 126, 230);
+}
+.btnlearn2:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+.btnbuy2 {
+  position: absolute;
+  border-radius: 30px;
+  width: 70px;
+  height: 40px;
+  font-size: 18px;
+  color: rgb(63, 107, 227);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  border-color: rgb(63, 107, 227);
+  left: 360px;
+  top: 1535px;
+  cursor: pointer;
+}
+.btnbuy2:hover {
+  color: white;
+  background-color: rgb(63, 107, 227);
+}
+.btnbuy2:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+#goggle {
+  position: absolute;
+  top: 1410px;
+  width: 622px;
+  height: 596px;
+  left: 690px;
+  cursor: pointer;
+}
+.vr {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  left: 850px;
+  top: 1400px;
+  cursor: pointer;
+}
+.vrexp {
+  position: absolute;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  left: 850px;
+  top: 1495px;
+  cursor: pointer;
+}
+.btnlearn3 {
+  position: absolute;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(63, 107, 227);
+  border-color: rgb(63, 107, 227);
+  left: 850px;
+  top: 1550px;
+  cursor: pointer;
+}
+.btnlearn3:hover {
+  background-color: rgb(88, 126, 230);
+  border-color: rgb(88, 126, 230);
+}
+.btnlearn3:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+.btnbuy3 {
+  position: absolute;
+  border-radius: 30px;
+  width: 70px;
+  height: 40px;
+  font-size: 18px;
+  color: rgb(63, 107, 227);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  border-color: rgb(63, 107, 227);
+  left: 980px;
+  top: 1550px;
+  cursor: pointer;
+}
+.btnbuy3:hover {
+  color: white;
+  background-color: rgb(63, 107, 227);
+}
+.btnbuy3:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+#laptop {
+  position: absolute;
+  top: 2116px;
+  width: 622px;
+  height: 500px;
+  border: 2px solid;
+  border-color: rgb(203, 196, 196);
+  border-top: none;
+  cursor: pointer;
+  left: 43px;
+}
+.lappy {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  top: 1970px;
+  cursor: pointer;
+  border: 2px solid;
+  width: 622px;
+  text-align: center;
+  height: 96px;
+  border-color: rgb(203, 196, 196);
+  border-bottom: none;
+  left: 43px;
+}
+.lappyexp {
+  position: absolute;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  left: 180px;
+  top: 2060px;
+  cursor: pointer;
+}
+.btnlearn4 {
+  position: absolute;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(63, 107, 227);
+  border-color: rgb(63, 107, 227);
+  left: 200px;
+  top: 2110px;
+  cursor: pointer;
+}
+.btnlearn4:hover {
+  background-color: rgb(88, 126, 230);
+  border-color: rgb(88, 126, 230);
+}
+.btnlearn4:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+.btnbuy4 {
+  position: absolute;
+  border-radius: 30px;
+  width: 70px;
+  height: 40px;
+  font-size: 18px;
+  color: rgb(63, 107, 227);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  border-color: rgb(63, 107, 227);
+  left: 330px;
+  top: 2110px;
+  cursor: pointer;
+}
+.btnbuy4:hover {
+  color: white;
+  background-color: rgb(63, 107, 227);
+}
+.btnbuy4:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+#headphone {
+  position: absolute;
+  top: 2116px;
+  width: 622px;
+  height: 500px;
+  left: 690px;
+  border: 2px solid;
+  border-color: rgb(203, 196, 196);
+  cursor: pointer;
+  border-top: none;
+}
+.hp {
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  top: 1975px;
+  cursor: pointer;
+  border: 2px solid;
+  height: 96px;
+  width: 622px;
+  left: 690px;
+  border-color: rgb(203, 196, 196);
+  border-bottom: none;
+  text-align: center;
+}
+.hpexp {
+  position: absolute;
+  font-size: 23px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  left: 795px;
+  top: 2050px;
+}
+.btnlearn5 {
+  position: absolute;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(63, 107, 227);
+  border-color: rgb(63, 107, 227);
+  left: 850px;
+  top: 2107px;
+  cursor: pointer;
+}
+.btnlearn5:hover {
+  background-color: rgb(88, 126, 230);
+  border-color: rgb(88, 126, 230);
+}
+.btnlearn5:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+.btnbuy5 {
+  position: absolute;
+  border-radius: 30px;
+  width: 70px;
+  height: 40px;
+  font-size: 18px;
+  color: rgb(63, 107, 227);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  border-color: rgb(63, 107, 227);
+  left: 980px;
+  top: 2107px;
+  cursor: pointer;
+}
+.btnbuy5:hover {
+  color: white;
+  background-color: rgb(63, 107, 227);
+}
+.btnbuy5:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+#crypto {
+  position: absolute;
+  top: 2730px;
+  width: 622px;
+  height: 500px;
+  border: 2px solid;
+  border-color: rgb(203, 196, 196);
+  cursor: pointer;
+  border-top: none;
+  left: 43px;
+}
+.trade {
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  top: 2590px;
+  cursor: pointer;
+  border: 2px solid;
+  height: 96px;
+  width: 622px;
+  border-color: rgb(203, 196, 196);
+  border-bottom: none;
+  text-align: center;
+  left: 43px;
+}
+.credit {
+  position: absolute;
+  font-size: 23px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  top: 2670px;
+  width: 350px;
+  left: 140px;
+}
+.credit2 {
+  top: 27px;
+  position: absolute;
+  left: 25px;
+}
+.estimate {
+  position: absolute;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  font-size: 12px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(63, 107, 227);
+  border-color: rgb(63, 107, 227);
+  left: 250px;
+  top: 2750px;
+  cursor: pointer;
+}
+.estimate:hover {
+  background-color: rgb(88, 126, 230);
+  border-color: rgb(88, 126, 230);
+}
+.estimate:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+#ccard {
+  position: absolute;
+  top: 2730px;
+  width: 622px;
+  height: 500px;
+  left: 690px;
+  border: 2px solid;
+  border-color: rgb(203, 196, 196);
+  cursor: pointer;
+  border-top: none;
+}
+.cb {
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  top: 2590px;
+  cursor: pointer;
+  border: 2px solid;
+  height: 96px;
+  width: 622px;
+  left: 690px;
+  border-color: rgb(203, 196, 196);
+  border-bottom: none;
+  text-align: center;
+}
+.disc {
+  position: absolute;
+  font-size: 23px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  left: 760px;
+  top: 2670px;
+}
+.btnlearn6 {
+  position: absolute;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(63, 107, 227);
+  border-color: rgb(63, 107, 227);
+  left: 850px;
+  top: 2730px;
+  cursor: pointer;
+}
+.btnlearn6:hover {
+  background-color: rgb(88, 126, 230);
+  border-color: rgb(88, 126, 230);
+}
+.btnlearn6:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+.btnapply {
+  position: absolute;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  color: rgb(63, 107, 227);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+  border-color: rgb(63, 107, 227);
+  left: 980px;
+  top: 2730px;
+  cursor: pointer;
+}
+.btnapply:hover {
+  color: white;
+  background-color: rgb(63, 107, 227);
+}
+.btnapply:active {
+  background-color: rgb(25, 82, 237);
+  border-color: rgb(25, 82, 237);
+}
+/*.slide{
+    position: absolute;
+    top: 5000px;
+    width: 1200px;
+    height: 600px;
+    left: 48px;
+    cursor: pointer;
+}
+.slide{
+    position: absolute;
+    top: 5000px;
+    width: 1200px;
+    height: 600px;
+    left: 48px;
+    cursor: pointer;
+}
+.slide{
+    position: absolute;
+    top: 5000px;
+    width: 1200px;
+    height: 600px;
+    left: 48px;
+    cursor: pointer;
+}
+.slide{
+    position: absolute;
+    top: 5000px;
+    width: 1200px;
+    height: 600px;
+    left: 48px;
+    cursor: pointer;
+}
+.slide{
+    position: absolute;
+    top: 5000px;
+    width: 1200px;
+    height: 600px;
+    left: 48px;
+    cursor: pointer;
+}*/
+
+/*SLIDES BEGIN*/
+.slider {
+  position: absolute;
+  top: 3250px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 550px;
+  left: 78px;
+  cursor: pointer;
+  width: 1200px;
+}
+
+.imgslides {
+  position: absolute;
+  top: 3230px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 550px;
+  left: 78px;
+  cursor: pointer;
+  width: 1200px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 1200px;
+  height: 550px;
+}
+
+.slides img {
+  width: 1200px;
+  height: 550px;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+  z-index: 2;
+}
+
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+
+.dots {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #bbb;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #333;
+}
+/*SLIDES END*/
+
+.active {
+  display: block;
+}
+
+.btmbox {
+  background-color: white;
+  position: absolute;
+  top: 3850px;
+  width: 1040px;
+  height: 330px;
+  left: 120px;
+}
+.buttom {
+  color: black;
+  text-decoration: none;
+  padding-inline: 2px;
+  padding-left: 10px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+.btm {
+  padding-left: 10px;
+  color: black;
+  width: 220px;
+  position: absolute;
+  top: 3870px;
+  left: 126px;
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+.go-to {
+  cursor: pointer;
+}
+.up {
+  text-decoration: none;
+  color: #000;
+}
+.up:hover {
+  color: rgb(22, 105, 169);
+}
+.gac {
+  text-decoration: none;
+  color: #000;
+}
+.gac:hover {
+  color: rgb(22, 105, 169);
+}
+.gas {
+  text-decoration: none;
+  color: #000;
+}
+.gas:hover {
+  color: rgb(22, 105, 169);
+}
+.igt {
+  text-decoration: none;
+  color: #000;
+}
+.igt:hover {
+  color: rgb(22, 105, 169);
+}
+.gs {
+  text-decoration: none;
+  color: #000;
+}
+.gs:hover {
+  color: rgb(22, 105, 169);
+}
+.gh {
+  text-decoration: none;
+  color: #000;
+}
+.gh:hover {
+  color: rgb(22, 105, 169);
+}
+.psma {
+  text-decoration: none;
+  color: black;
+}
+.btm2 {
+  width: 230px;
+  left: 410px;
+  top: 3870px;
+  position: absolute;
+  font-size: small;
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.tik {
+  text-decoration: none;
+  color: #000;
+}
+.tik:hover {
+  color: rgb(22, 105, 169);
+}
+.insta {
+  text-decoration: none;
+  color: #000;
+}
+.insta:hover {
+  color: rgb(22, 105, 169);
+}
+.fb {
+  text-decoration: none;
+  color: #000;
+}
+.fb:hover {
+  color: rgb(22, 105, 169);
+}
+.ytt {
+  text-decoration: none;
+  color: #000;
+}
+.ytt:hover {
+  color: rgb(22, 105, 169);
+}
+.btm3 {
+  width: 250px;
+  left: 680px;
+  position: absolute;
+  top: 3870px;
+  font-size: small;
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.c1 {
+  text-decoration: none;
+  color: #000;
+}
+.c1:hover {
+  color: rgb(22, 105, 169);
+}
+.bitcon {
+  cursor: pointer;
+}
+.c2 {
+  text-decoration: none;
+  color: #000;
+}
+.c2:hover {
+  color: rgb(22, 105, 169);
+}
+.c3 {
+  text-decoration: none;
+  color: #000;
+}
+.c3:hover {
+  color: rgb(22, 105, 169);
+}
+.c4 {
+  text-decoration: none;
+  color: #000;
+}
+.c4:hover {
+  color: rgb(22, 105, 169);
+}
+.c5 {
+  text-decoration: none;
+  color: #000;
+}
+.c5:hover {
+  color: rgb(22, 105, 169);
+}
+.c6 {
+  text-decoration: none;
+  color: #000;
+}
+.c6:hover {
+  color: rgb(22, 105, 169);
+}
+.span {
+  font-weight: bolder;
+}
+.span:hover {
+  color: black;
+}
+.btm4 {
+  width: 150px;
+  position: absolute;
+  top: 3870px;
+  font-size: small;
+  left: 990px;
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.tel {
+  text-decoration: none;
+  color: #000;
+}
+.tel:hover {
+  color: rgb(22, 105, 169);
+}
+.whapp {
+  text-decoration: none;
+  color: #000;
+}
+.whapp:hover {
+  color: rgb(22, 105, 169);
+}
+.mael {
+  text-decoration: none;
+  color: #000;
+}
+.mael:hover {
+  color: rgb(22, 105, 169);
+}
+.in {
+  text-decoration: none;
+  color: #000;
+}
+.in:hover {
+  color: rgb(22, 105, 169);
+}
+/* for desktop or max */
+/*@media (max-width: 728px) {
+  body {
+    position: relative;
+  }
+  #navbar {
+    width: 100%;
+    gap: 55px;
+    left: 0px;
+  }
+  #emz {
+    height: 2000px;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    top: 250px;
+    width: 100%;
+    font-size: 190px;
+    left: 0px;
+  }
+  .auto-type {
+    position: absolute;
+    top: 700px;
+    font-size: 15px;
+    left: 40px;
+    gap: 55px;
+  }
+  .shop {
+    top: 800px;
+    left: 200px;
+  }
+  #gamingpc {
+    top: 380px;
+    position: absolute;
+  }
+  #pc {
+    height: 700px;
+    width: 100%;
+  }
+  .pcpro {
+    left: 30px;
+    font-size: 35px;
+    top: 720px;
+    position: absolute;
+    left: 100px;
+  }
+  .gexp {
+    left: 100px;
+  }
+  .btnlearn {
+    left: 120px;
+    height: 40px;
+  }
+  .btnbuy {
+    left: 280px;
+    height: 40px;
+  }
+  #gamingpads {
+    position: relative;
+    top: 380px;
+  }
+  #pads {
+    height: 700px;
+    width: 100%;
+  }
+  .ps5 {
+    font-size: 35px;
+    left: 100px;
+    top: 1460px;
+  }
+  .psexp {
+    top: 1520px;
+    font-size: 25px;
+    left: 100px;
+    font-size: 20px;
+  }
+  .btnlearn2 {
+    left: 140px;
+    font-size: 18px;
+    height: 40px;
+    top: 1580px;
+  }
+  .btnbuy2 {
+    left: 280px;
+    height: 40px;
+    top: 1580px;
+  }
+  #goggle {
+    position: absolute;
+    left: 0px;
+    height: 700px;
+    width: 100%;
+    top: 2520px;
+  }
+  .vr {
+    left: 150px;
+    top: 2530px;
+    font-size: 35px;
+  }
+  .vrexp {
+    left: 150px;
+    top: 2620px;
+  }
+  .btnlearn3 {
+    left: 140px;
+    font-size: 18px;
+    height: 40px;
+    top: 2670px;
+  }
+  .btnbuy3 {
+    left: 280px;
+    height: 40px;
+    top: 2670px;
+  }
+  #laptop {
+    position: absolute;
+    left: 0px;
+    height: 700px;
+    width: 100%;
+    top: 3350px;
+  }
+  .lappy {
+    left: 0px;
+    top: 3200px;
+    width: 100%;
+    font-size: 35px;
+  }
+  .lappyexp {
+    left: 150px;
+    top: 3285px;
+    font-size: 20px;
+  }
+  .btnlearn4 {
+    left: 140px;
+    font-size: 18px;
+    height: 40px;
+    top: 3350px;
+  }
+  .btnbuy4 {
+    left: 280px;
+    height: 40px;
+    top: 3350px;
+  }
+  #headphone {
+    position: absolute;
+    left: 0px;
+    height: 700px;
+    width: 100%;
+    top: 4190px;
+  }
+  .hp {
+    left: 0px;
+    top: 4050px;
+    width: 100%;
+    font-size: 35px;
+  }
+  .hpexp {
+    left: 150px;
+    top: 4130px;
+    font-size: 20px;
+  }
+  .btnlearn5 {
+    left: 140px;
+    font-size: 18px;
+    height: 40px;
+    top: 4190px;
+  }
+  .btnbuy5 {
+    left: 280px;
+    height: 40px;
+    top: 4190px;
+  }
+  #crypto {
+    position: absolute;
+    left: 0px;
+    height: 700px;
+    width: 100%;
+    top: 5000px;
+  }
+  .trade {
+    left: 0px;
+    top: 4880px;
+    width: 100%;
+    font-size: 30px;
+  }
+  .credit {
+    left: 100px;
+    top: 4950px;
+    font-size: 20px;
+  }
+  .estimate {
+    left: 190px;
+    font-size: 18px;
+    height: 40px;
+    width: 180px;
+    top: 5030px;
+  }
+  #ccard {
+    position: absolute;
+    left: 0px;
+    height: 700px;
+    width: 100%;
+    top: 5800px;
+  }
+  .cb {
+    left: 0px;
+    top: 5700px;
+    width: 100%;
+    font-size: 35px;
+  }
+  .disc {
+    left: 60px;
+    top: 5780px;
+    font-size: 20px;
+  }
+  .btnlearn6 {
+    left: 140px;
+    font-size: 18px;
+    height: 40px;
+    top: 5840px;
+  }
+  .btnapply {
+    left: 280px;
+    height: 40px;
+    top: 5840px;
+  }
+  .slide {
+    top: 6540px;
+    width: 95%;
+    left: 15px;
+  }
+  .btmbox {
+    top: 7170px;
+    width: 100%;
+    left: 0px;
+    height: 510px;
+  }
+  .btm {
+    top: 7190px;
+    left: 20px;
+    width: 45%;
+  }
+  .btm2 {
+    top: 7190px;
+    left: 260px;
+    width: 45%;
+  }
+  .btm3 {
+    top: 7460px;
+    left: 20px;
+    width: 45%;
+  }
+
+  .btm4 {
+    top: 7460px;
+    left: 260px;
+    width: 45%;
+  }
+}
+*/

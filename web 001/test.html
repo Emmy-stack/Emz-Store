@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar with Hover Dropdown</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: white;
+      }
+
+      nav {
+        background-color: #1f1f1f;
+        padding: 1rem 2rem;
+        display: flex;
+      }
+
+      .nav-item {
+        position: relative;
+        margin-right: 2rem;
+        cursor: pointer;
+      }
+
+      .nav-link {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem;
+      }
+
+      .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #292929;
+        padding: 1rem;
+        min-width: 200px;
+        border-radius: 6px;
+        z-index: 1000;
+      }
+
+      .dropdown a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 0.3rem 0;
+      }
+
+      .dropdown a:hover {
+        text-decoration: underline;
+      }
+
+      .nav-item:hover .dropdown {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-item">
+        <span class="nav-link">Shop</span>
+        <div class="dropdown">
+          <a href="#">Gaming Gear</a>
+          <a href="#">Movies & Blu-rays</a>
+          <a href="#">Gift Cards</a>
+          <a href="#">Bundles</a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <span class="nav-link">About</span>
+        <div class="dropdown">
+          <a href="#">Our Story</a>
+          <a href="#">Press</a>
+          <a href="#">Careers</a>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
