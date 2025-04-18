@@ -22,7 +22,10 @@ nav {
   padding: 1rem 2rem;
   display: flex;
   position: fixed;
-  width: 1283px;
+  width: 1300px;
+  z-index: 1000;
+  left: 0%;
+  top: 0%;
 }
 
 .nav-item {
