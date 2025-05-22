@@ -72,7 +72,7 @@ function autoPlaySlides() {
 
 createDots();
 showSlide(0);
-setInterval(autoPlaySlides, 2000); // 4 seconds interval
+setInterval(autoPlaySlides, 2000); // 2 seconds interval
 
 function scrollToSection(sectionId) {
   const section = document.getElementById(sectionId);

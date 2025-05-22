@@ -16,6 +16,8 @@ button {
 }
 img {
   animation: 2s ease-out;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 nav {
   background-color: rgba(245, 245, 245, 0.963);
@@ -121,21 +123,24 @@ nav {
   background-color: rgb(63, 107, 227);
   width: 120px;
   height: 50px;
-  border: 10px solid;
   border-color: rgb(63, 107, 227);
-  border-radius: 25px;
+  border-radius: 30px;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: absolute;
   cursor: pointer;
   top: 500px;
-  left: 600px;
+  left: 615px;
   font-size: larger;
   text-align: center;
 }
 .shop:active {
   background-color: rgb(25, 82, 237);
   border-color: rgb(25, 82, 237);
+}
+.shop:hover {
+  background-color: rgb(88, 126, 230);
+  border-color: rgb(88, 126, 230);
 }
 #navbar {
   width: 700px;
@@ -187,7 +192,7 @@ nav {
 }
 #pc {
   position: relative;
-  top: 680px;
+  top: 670px;
   width: 1265px;
   cursor: pointer;
   animation: left 2s ease;
@@ -203,7 +208,7 @@ nav {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
-  left: 400px;
+  left: 450px;
   top: 650px;
   cursor: pointer;
   animation: left 4s ease;
@@ -214,7 +219,7 @@ nav {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
-  left: 470px;
+  left: 500px;
   top: 780px;
   cursor: pointer;
   animation: left 4s ease;
@@ -223,14 +228,14 @@ nav {
   position: absolute;
   border-radius: 30px;
   width: 140px;
-  height: 60px;
+  height: 50px;
   font-size: 20px;
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: rgb(63, 107, 227);
   border-color: rgb(63, 107, 227);
-  left: 480px;
+  left: 540px;
   top: 850px;
   cursor: pointer;
 }
@@ -246,14 +251,14 @@ nav {
   position: absolute;
   border-radius: 30px;
   width: 90px;
-  height: 60px;
+  height: 50px;
   font-size: 20px;
   color: rgb(63, 107, 227);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: black;
   border-color: rgb(63, 107, 227);
-  left: 635px;
+  left: 690px;
   top: 850px;
   cursor: pointer;
 }
@@ -355,7 +360,7 @@ nav {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
-  left: 850px;
+  left: 880px;
   top: 1400px;
   cursor: pointer;
 }
@@ -365,7 +370,7 @@ nav {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
-  left: 850px;
+  left: 880px;
   top: 1495px;
   cursor: pointer;
 }
@@ -380,7 +385,7 @@ nav {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: rgb(63, 107, 227);
   border-color: rgb(63, 107, 227);
-  left: 850px;
+  left: 900px;
   top: 1550px;
   cursor: pointer;
 }
@@ -403,7 +408,7 @@ nav {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: black;
   border-color: rgb(63, 107, 227);
-  left: 980px;
+  left: 1030px;
   top: 1550px;
   cursor: pointer;
 }
@@ -449,7 +454,7 @@ nav {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: black;
-  left: 180px;
+  left: 210px;
   top: 2060px;
   cursor: pointer;
 }
@@ -464,7 +469,7 @@ nav {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: rgb(63, 107, 227);
   border-color: rgb(63, 107, 227);
-  left: 200px;
+  left: 230px;
   top: 2110px;
   cursor: pointer;
 }
@@ -487,7 +492,7 @@ nav {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: black;
   border-color: rgb(63, 107, 227);
-  left: 330px;
+  left: 360px;
   top: 2110px;
   cursor: pointer;
 }
@@ -533,7 +538,7 @@ nav {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: black;
-  left: 795px;
+  left: 840px;
   top: 2050px;
 }
 .btnlearn5 {
@@ -547,7 +552,7 @@ nav {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: rgb(63, 107, 227);
   border-color: rgb(63, 107, 227);
-  left: 850px;
+  left: 890px;
   top: 2107px;
   cursor: pointer;
 }
@@ -570,7 +575,7 @@ nav {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: black;
   border-color: rgb(63, 107, 227);
-  left: 980px;
+  left: 1020px;
   top: 2107px;
   cursor: pointer;
 }
@@ -618,12 +623,12 @@ nav {
   color: black;
   top: 2670px;
   width: 350px;
-  left: 140px;
+  left: 180px;
 }
 .credit2 {
   top: 27px;
   position: absolute;
-  left: 25px;
+  left: 32px;
 }
 .estimate {
   position: absolute;
@@ -636,7 +641,7 @@ nav {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: rgb(63, 107, 227);
   border-color: rgb(63, 107, 227);
-  left: 250px;
+  left: 300px;
   top: 2750px;
   cursor: pointer;
 }
@@ -682,7 +687,7 @@ nav {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: black;
-  left: 760px;
+  left: 780px;
   top: 2670px;
 }
 .btnlearn6 {
@@ -696,7 +701,7 @@ nav {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: rgb(63, 107, 227);
   border-color: rgb(63, 107, 227);
-  left: 850px;
+  left: 890px;
   top: 2730px;
   cursor: pointer;
 }
@@ -719,7 +724,7 @@ nav {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: white;
   border-color: rgb(63, 107, 227);
-  left: 980px;
+  left: 1020px;
   top: 2730px;
   cursor: pointer;
 }
